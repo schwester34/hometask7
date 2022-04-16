@@ -35,7 +35,6 @@ public class BaseLambdaTest {
             step("Checking for tabs Issue" + ISSUE_NUMBER, () ->{
                 $(withText("#1")).should(Condition.exist);
             });
-
         }
 
     @Test
